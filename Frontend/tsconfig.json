@@ -18,7 +18,11 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    
+    /* Additional options */
+    "experimentalDecorators": true, // Enable experimental support for decorators.
+    "emitDecoratorMetadata": true  // Emit design-type metadata for decorated declarations.
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
