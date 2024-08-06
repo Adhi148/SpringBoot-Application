@@ -17,7 +17,7 @@ import com.Himalaya.Backend.Entity.DemandForcasting;
 import com.Himalaya.Backend.Service.DemandService;
 
 @RestController
-@CrossOrigin(origins = { "http://localhost:5173", "http://10.64.36.22:5000" })
+@CrossOrigin(origins = { "http://localhost:5173"})
 @RequestMapping("/data")
 public class DemandController 
 {
